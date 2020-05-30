@@ -5,4 +5,4 @@ In this project, you can see calculator. You can add,delete,edit bill. When you 
 
 ### `Check out Bill Calculator App`
 
-You can run Bill Calculator app. [Show Project](https://weather-api-with-js.netlify.app/).
+You can run Bill Calculator app. [Show Project](https://react-bill-calculator.netlify.app/).
