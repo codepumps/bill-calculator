@@ -7,13 +7,7 @@ import ExpenseForm from "./components/ExpenseForm";
 import Alert from "./components/Alert";
 
 //unic id
-import uuid from "uuid/v4";
-
-// let initialExpenses = [
-//   { id: uuid(), charge: "rent", amount: 1600 },
-//   { id: uuid(), charge: "car payment", amount: 400 },
-//   { id: uuid(), charge: "credit card payment", amount: 1200 }
-// ]
+import { uuid } from "uuid/v4";
 
 const initialExpenses = localStorage.getItem('expenses') ? JSON.parse(localStorage.getItem('expenses')) : [];
 
@@ -32,7 +26,7 @@ function App() {
   const [id, setId] = useState(0);
 
   useEffect(() => {
-    console.log("we called useEffect")
+    //console.log("we called useEffect")
     localStorage.setItem("expenses", JSON.stringify(expenses))
   }, [expenses])
 
